@@ -1,6 +1,6 @@
  @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import url('https://fonts.googleapis.com/css2?family=Montserrat'); 
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble:400,700');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble:400,700'); */
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&display=swap');
 
 :root {
@@ -8,7 +8,7 @@
   --mainWhite: #ffffffee;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --mainSpacing: 0.1rem;
+  --mainSpacing: 0.09rem;
   --mainTransition: all 0.3s linear;
 }
 * {
@@ -177,7 +177,7 @@ body {
     transition: var(--mainTransition);
     background: rgb(240, 157, 81, 0.5);
     z-index: 2;
-    /* visibility: hidden; */
+    visibility: hidden;
   }
   .cart {
     position: fixed;
@@ -190,7 +190,7 @@ body {
     background: rgb(231, 226, 221);
     padding: 1.5rem;
     transition: var(--mainTransition);
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
   }
   .showCart {
     transform: translateX(0);
@@ -215,3 +215,45 @@ body {
     letter-spacing: var(--mainSpacing);
     margin-bottom: 2rem;
   }
+  .cart-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+  .cart-item img {
+    width: 75px;
+    height: 75px;
+  }
+  .cart-item h4 {
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+  }
+  .cart-item h5 {
+    margin: 0.5rem 0;
+    letter-spacing: var(--mainSpacing);
+  }
+  .item-amount {
+    text-align: center;
+  }
+  .remove-item {
+    color: grey;
+    cursor: pointer;
+  }
+  .fa-chevron-up,
+  .fa-chevron-down {
+    color: var(--primaryColor);
+    cursor: pointer;
+  }
+  .cart-footer {
+    margin-top: 2rem;
+    letter-spacing: var(--mainSpacing);
+    text-align: center;
+  }
+  .cart-footer h3 {
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  
