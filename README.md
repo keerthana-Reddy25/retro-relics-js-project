@@ -6,8 +6,11 @@ Users can browse through the available products, add items to their cart, and en
 Feature:
 
 Product Display: Display a variety of antique products with images, titles, and prices fetched from Contentful.
+
 Add to Cart: Users can add products to their cart with a single click, updating the cart total and item count dynamically.
+
 Cart Functionality: Manage cart items, including updating quantities, removing items, and clearing the entire cart.
+
 Responsive Design: The application is designed to provide an optimal viewing experience across a wide range of devices.
 
 Getting Started:
