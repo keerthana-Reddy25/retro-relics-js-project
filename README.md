@@ -16,9 +16,13 @@ Responsive Design: The application is designed to provide an optimal viewing exp
 Getting Started:
 
 Clone this repository to your local machine.
-Ensure you have Node.js and npm installed.
+
+Ensure you have Node.js and npm installed
+.
 Install dependencies by running npm install.
+
 Replace the Contentful Space ID and Access Token in app.js with your own credentials.
+
 Run the application using npm start or by opening index.html in a web browser.
 
 Technologies Used:
