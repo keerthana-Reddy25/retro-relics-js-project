@@ -5,7 +5,7 @@ Welcome to Retro Relics Emporium, an e-commerce platform showcasing antique coll
 This project is built with JavaScript, leveraging Contentful as a headless CMS for managing product data. 
 Users can browse through the available products, add items to their cart, and enjoy a seamless shopping experience.
 
-Feature:
+Features:
 
 Product Display: Display a variety of antique products with images, titles, and prices fetched from Contentful.
 
