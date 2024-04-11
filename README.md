@@ -27,7 +27,7 @@ Run the application using npm start or by opening index.html in a web browser.
 
 Technologies Used:
 
-JavaScript
-HTML5
-CSS3
+Vanilla JavaScript, 
+HTML5, 
+CSS3, 
 Contentful (Headless CMS)
